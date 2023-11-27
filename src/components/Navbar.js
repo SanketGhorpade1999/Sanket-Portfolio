@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://medium.com/@sanketghorpade11/recipe-detection-of-image-using-deep-learning-262102cc2449"
+                href="https://github.com/SanketGhorpade1999/Sanket-Portfolio.git"
                 target="_blank"
                 className="fork-btn-inner"
               >
