@@ -16,7 +16,12 @@ function AboutCard() {
             I have completed Bachelor's of Engineering (B.E.) in Information Technology at University of
             Pune.
             <br />
+              About my internship I have completed Front-end development Intern in Siddhant College of Engineering
+              where my task was to devloped and modify existing college website in HTML, CSS and JavaScript collaborating with 
+                Elite Software Solutions Pvt. Ltd.
             <br />
+                <br/>
+                <br/>
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
