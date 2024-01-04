@@ -104,7 +104,7 @@ function Projects() {
             <ProjectCard
               imgPath={TravelSwift}
               isBlog={false}
-              title="Social-Media App"
+              title="Travel Booking App"
               description="An Front-end Travel booking application using ReactJS, Tailwind CSS, Netlify and JavaScript. Allows user to book destinations places in cheap cost at any time any where"
               ghLink="https://github.com/SanketGhorpade1999/TravelSwift.git"
               demoLink="https://travel-tcj.netlify.app/"
