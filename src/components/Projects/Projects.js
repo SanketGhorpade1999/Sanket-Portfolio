@@ -8,6 +8,8 @@ import Brewery from "../../Assets/Projects/Brewery.png";
 import VirtuCart from "../../Assets/Projects/VirtuCart.png";
 import Detector from "../../Assets/Projects/Recipe.png";
 import AirReserve from "../../Assets/Projects/AirReserve.png";
+import Snapgram from "../../Assets/Projects/Snapgram.png";
+import TravelSwift from "../../Assets/Projects/TravelSwift.png";
 
 function Projects() {
   return (
@@ -84,6 +86,28 @@ function Projects() {
               description="Developed Java E-Commerce Software, providing separate admin and client functionalities 92% simply. Admins can manage products, and clients make purchases and generate bills with 96% functionality. Added a Splash Screen for the UI interface, and utilized AWT API to create complex functionality for both parties, with employing MySQL Database to store the clients data with 92% ease."
               ghLink="https://github.com/SanketGhorpade1999/Supermarket-Management.git"
               demoLink="https://www.youtube.com/watch?v=RaKoZt-Pjvs&feature=youtu.be"      
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Snapgram}
+              isBlog={false}
+              title="Social-Media App"
+              description="An Front-end Social Media application using ReactJS, Tailwind CSS, React Query and Appwrite. Allows user to post images and save memories at any time any where"
+              ghLink="https://github.com/SanketGhorpade1999/Snapgram.git"
+              demoLink="https://snapgram-ten-taupe.vercel.app/sign-in"
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TravelSwift}
+              isBlog={false}
+              title="Social-Media App"
+              description="An Front-end Travel booking application using ReactJS, Tailwind CSS, Netlify and JavaScript. Allows user to book destinations places in cheap cost at any time any where"
+              ghLink="https://github.com/SanketGhorpade1999/TravelSwift.git"
+              demoLink="https://travel-tcj.netlify.app/"
             />
           </Col>
         </Row>
