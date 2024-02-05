@@ -10,6 +10,8 @@ import Detector from "../../Assets/Projects/Recipe.png";
 import AirReserve from "../../Assets/Projects/AirReserve.png";
 import Snapgram from "../../Assets/Projects/Snapgram.png";
 import TravelSwift from "../../Assets/Projects/TravelSwift.png";
+import GoCommerce from "../../Assets/Projects/GoCommerce.jpg";
+import GoPay from "../../Assets/Projects/GoPay.jpg";
 
 function Projects() {
   return (
@@ -23,6 +25,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "09px" }}>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GoCommerce}
+              isBlog={false}
+              title="E-Commerce(GoCommerce)"
+              description="Crafted an E-commerce goods management system using HTML, CSS, JavaScript and Go, incorporated features for manage product and order, mManage clients and manage vendors, achieving a 96% accuracy rate on order processing."
+              ghLink="https://github.com/SanketGhorpade1999/E-Commerce.git"
+              //demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GoPay}
+              isBlog={false}
+              title="E-Wallet(GoPay)"
+              description="Developed an E-wallet Crud Application using Golang, IntelliJ-idea and OO Patterns, Added features such as transactions between merchants and customer, achieving a 92% boosting accuracy."
+              ghLink="https://github.com/SanketGhorpade1999/E-Wallet.git"
+              //demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+                
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={VirtuCart}
